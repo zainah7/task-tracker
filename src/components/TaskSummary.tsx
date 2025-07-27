@@ -27,7 +27,7 @@ const TaskSummary: React.FC<TaskSummaryProps> = ({
         </div>
       </div>
       
-      <div className="flex justify-center items-center space-x-6">
+      <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
         <div className="text-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent dark:from-green-400 dark:to-emerald-400">
             {completedCount}

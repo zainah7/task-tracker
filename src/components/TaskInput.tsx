@@ -80,7 +80,7 @@ const TaskInput: React.FC<TaskInputProps> = ({ onAddTask }) => {
         </button>
       </div>
       
-      <div className="flex justify-center space-x-6">
+      <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
         <label className="flex items-center cursor-pointer group">
           <div className="relative">
             <input

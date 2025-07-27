@@ -15,7 +15,7 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({
   totalTasksCount,
 }) => {
   return (
-    <div className="flex justify-between items-center pt-6 border-t border-gradient-to-r from-gray-200 via-gray-300 to-gray-200 dark:from-gray-700 dark:via-gray-600 dark:to-gray-700">
+    <div className="flex flex-col sm:flex-row justify-between items-center pt-6 border-t border-gradient-to-r from-gray-200 via-gray-300 to-gray-200 dark:from-gray-700 dark:via-gray-600 dark:to-gray-700 space-y-4 sm:space-y-0">
       <button
         onClick={onToggleShowCompleted}
         className="btn-secondary flex items-center space-x-2 group"

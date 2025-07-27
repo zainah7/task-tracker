@@ -93,7 +93,7 @@ const TaskItem: React.FC<TaskItemProps> = ({
       
       <button
         onClick={() => onDeleteTask(task.id)}
-        className="ml-4 p-2 rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-all duration-200 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0"
+        className="ml-4 p-2 rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-all duration-200 opacity-100 sm:opacity-0 group-hover:opacity-100 transform translate-x-0 sm:translate-x-2 group-hover:translate-x-0"
         aria-label={`Delete task: ${task.text}`}
       >
         <Trash2 className="w-4 h-4" />

@@ -152,7 +152,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center p-4 transition-all duration-500">
-      <div className="w-full max-w-md bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-2xl shadow-2xl p-8 space-y-6">
+      <div className="w-full max-w-md bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-2xl shadow-2xl p-4 sm:p-8 space-y-6">
         <Header theme={theme} toggleTheme={toggleTheme} />
         <TaskSummary
           completedCount={completedTasksCount}
